@@ -208,4 +208,434 @@ Caused by: java.lang.NullPointerException: null
 ""2018-04-09 04:28:24 [http-nio-8080-exec-8] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:28:24 MSK 2018 
 ""2018-04-09 04:28:24 [SimpleAsyncTaskExecutor-5] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:28:24 MSK 2018
 ""2018-04-09 04:28:24 [SimpleAsyncTaskExecutor-5] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:28:24 MSK 2018
+""2018-04-09 04:46:02 [Thread-4] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5a42bbf4: startup date [Mon Apr 09 04:25:23 MSK 2018]; root of context hierarchy
+""2018-04-09 04:46:02 [Thread-4] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2018-04-09 04:46:02 [Thread-4] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+""2018-04-09 04:46:02 [Thread-4] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2018-04-09 04:46:02 [Thread-4] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+""2018-04-09 04:46:02 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+""2018-04-09 04:46:02 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+""2018-04-09 04:46:20 [main] INFO  c.d.interview.task.application.App - Starting App on myrig with PID 11731 (/code/testtask/build/libs/interview-task-1.0-SNAPSHOT.jar started by h3r0 in /code/testtask)
+""2018-04-09 04:46:20 [main] DEBUG c.d.interview.task.application.App - Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+""2018-04-09 04:46:20 [main] INFO  c.d.interview.task.application.App - No active profile set, falling back to default profiles: default
+""2018-04-09 04:46:21 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5a42bbf4: startup date [Mon Apr 09 04:46:21 MSK 2018]; root of context hierarchy
+""2018-04-09 04:46:21 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$10cff70e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-04-09 04:46:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+""2018-04-09 04:46:21 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-04-09 04:46:21 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+""2018-04-09 04:46:21 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+""2018-04-09 04:46:21 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2018-04-09 04:46:22 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+""2018-04-09 04:46:22 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet webServlet mapped to [/h2-console/*]
+""2018-04-09 04:46:22 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-04-09 04:46:22 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-04-09 04:46:22 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-04-09 04:46:22 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-04-09 04:46:22 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+""2018-04-09 04:46:22 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+""2018-04-09 04:46:22 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2018-04-09 04:46:22 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2018-04-09 04:46:22 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.16.Final}
+""2018-04-09 04:46:22 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2018-04-09 04:46:22 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2018-04-09 04:46:22 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2018-04-09 04:46:22 [main] INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@bd4dc25'
+""2018-04-09 04:46:22 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2018-04-09 04:46:23 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2018-04-09 04:46:23 [main] INFO  c.d.i.t.p.r.HitsRepositoryAsyncAdapter - PostConstruct
+""2018-04-09 04:46:23 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2018-04-09 04:46:23 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2018-04-09 04:46:23 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+""2018-04-09 04:46:23 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+""2018-04-09 04:46:23 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+""2018-04-09 04:46:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+""2018-04-09 04:46:23 [main] INFO  c.d.interview.task.application.App - Started App in 2.958 seconds (JVM running for 3.294)
+""2018-04-09 04:46:28 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2018-04-09 04:46:28 [http-nio-8080-exec-2] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:28 MSK 2018 
+""2018-04-09 04:46:28 [http-nio-8080-exec-2] INFO  o.s.s.a.AnnotationAsyncExecutionInterceptor - No task executor bean found for async processing: no bean of type TaskExecutor and no bean named 'taskExecutor' either
+""2018-04-09 04:46:28 [http-nio-8080-exec-2] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:28 MSK 2018 
+""2018-04-09 04:46:28 [SimpleAsyncTaskExecutor-1] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:28 MSK 2018
+""2018-04-09 04:46:28 [SimpleAsyncTaskExecutor-1] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:28 MSK 2018
+""2018-04-09 04:46:29 [http-nio-8080-exec-3] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:29 MSK 2018 
+""2018-04-09 04:46:29 [http-nio-8080-exec-3] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:29 MSK 2018 
+""2018-04-09 04:46:29 [SimpleAsyncTaskExecutor-3] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:29 MSK 2018
+""2018-04-09 04:46:29 [SimpleAsyncTaskExecutor-3] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:29 MSK 2018
+""2018-04-09 04:46:29 [http-nio-8080-exec-4] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:29 MSK 2018 
+""2018-04-09 04:46:29 [http-nio-8080-exec-4] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:29 MSK 2018 
+""2018-04-09 04:46:29 [SimpleAsyncTaskExecutor-5] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:29 MSK 2018
+""2018-04-09 04:46:29 [SimpleAsyncTaskExecutor-5] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:29 MSK 2018
+""2018-04-09 04:46:29 [http-nio-8080-exec-5] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:29 MSK 2018 
+""2018-04-09 04:46:29 [http-nio-8080-exec-5] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:29 MSK 2018 
+""2018-04-09 04:46:29 [SimpleAsyncTaskExecutor-7] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:29 MSK 2018
+""2018-04-09 04:46:29 [SimpleAsyncTaskExecutor-7] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:29 MSK 2018
+""2018-04-09 04:46:29 [http-nio-8080-exec-6] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:29 MSK 2018 
+""2018-04-09 04:46:29 [http-nio-8080-exec-6] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:29 MSK 2018 
+""2018-04-09 04:46:29 [SimpleAsyncTaskExecutor-9] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:29 MSK 2018
+""2018-04-09 04:46:29 [SimpleAsyncTaskExecutor-9] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:29 MSK 2018
+""2018-04-09 04:46:29 [http-nio-8080-exec-7] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:29 MSK 2018 
+""2018-04-09 04:46:29 [http-nio-8080-exec-7] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:29 MSK 2018 
+""2018-04-09 04:46:29 [SimpleAsyncTaskExecutor-11] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:29 MSK 2018
+""2018-04-09 04:46:29 [SimpleAsyncTaskExecutor-11] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:29 MSK 2018
+""2018-04-09 04:46:30 [http-nio-8080-exec-8] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:30 MSK 2018 
+""2018-04-09 04:46:30 [http-nio-8080-exec-8] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:30 MSK 2018 
+""2018-04-09 04:46:30 [SimpleAsyncTaskExecutor-13] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:30 MSK 2018
+""2018-04-09 04:46:30 [SimpleAsyncTaskExecutor-13] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:30 MSK 2018
+""2018-04-09 04:46:30 [http-nio-8080-exec-9] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:30 MSK 2018 
+""2018-04-09 04:46:30 [http-nio-8080-exec-9] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:30 MSK 2018 
+""2018-04-09 04:46:30 [SimpleAsyncTaskExecutor-15] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:30 MSK 2018
+""2018-04-09 04:46:30 [SimpleAsyncTaskExecutor-15] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:30 MSK 2018
+""2018-04-09 04:46:30 [http-nio-8080-exec-10] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:30 MSK 2018 
+""2018-04-09 04:46:30 [http-nio-8080-exec-10] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:30 MSK 2018 
+""2018-04-09 04:46:30 [SimpleAsyncTaskExecutor-17] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:30 MSK 2018
+""2018-04-09 04:46:30 [SimpleAsyncTaskExecutor-17] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:30 MSK 2018
+""2018-04-09 04:46:30 [http-nio-8080-exec-1] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:30 MSK 2018 
+""2018-04-09 04:46:30 [http-nio-8080-exec-1] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:30 MSK 2018 
+""2018-04-09 04:46:30 [SimpleAsyncTaskExecutor-19] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:30 MSK 2018
+""2018-04-09 04:46:30 [SimpleAsyncTaskExecutor-19] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:30 MSK 2018
+""2018-04-09 04:46:30 [http-nio-8080-exec-2] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:30 MSK 2018 
+""2018-04-09 04:46:30 [SimpleAsyncTaskExecutor-21] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:30 MSK 2018
+""2018-04-09 04:46:30 [http-nio-8080-exec-2] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:30 MSK 2018 
+""2018-04-09 04:46:30 [SimpleAsyncTaskExecutor-21] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:30 MSK 2018
+""2018-04-09 04:46:31 [http-nio-8080-exec-3] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:31 MSK 2018 
+""2018-04-09 04:46:31 [http-nio-8080-exec-3] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:31 MSK 2018 
+""2018-04-09 04:46:31 [SimpleAsyncTaskExecutor-23] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:31 MSK 2018
+""2018-04-09 04:46:31 [SimpleAsyncTaskExecutor-23] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:31 MSK 2018
+""2018-04-09 04:46:31 [http-nio-8080-exec-4] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:31 MSK 2018 
+""2018-04-09 04:46:31 [http-nio-8080-exec-4] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:31 MSK 2018 
+""2018-04-09 04:46:31 [SimpleAsyncTaskExecutor-25] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:31 MSK 2018
+""2018-04-09 04:46:31 [SimpleAsyncTaskExecutor-25] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:31 MSK 2018
+""2018-04-09 04:46:31 [http-nio-8080-exec-5] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:31 MSK 2018 
+""2018-04-09 04:46:31 [http-nio-8080-exec-5] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:31 MSK 2018 
+""2018-04-09 04:46:31 [SimpleAsyncTaskExecutor-27] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:31 MSK 2018
+""2018-04-09 04:46:31 [SimpleAsyncTaskExecutor-27] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:31 MSK 2018
+""2018-04-09 04:46:31 [http-nio-8080-exec-6] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:31 MSK 2018 
+""2018-04-09 04:46:31 [http-nio-8080-exec-6] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:31 MSK 2018 
+""2018-04-09 04:46:31 [SimpleAsyncTaskExecutor-29] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:31 MSK 2018
+""2018-04-09 04:46:31 [SimpleAsyncTaskExecutor-29] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:31 MSK 2018
+""2018-04-09 04:46:31 [http-nio-8080-exec-7] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:31 MSK 2018 
+""2018-04-09 04:46:31 [http-nio-8080-exec-7] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:31 MSK 2018 
+""2018-04-09 04:46:31 [SimpleAsyncTaskExecutor-31] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:31 MSK 2018
+""2018-04-09 04:46:31 [SimpleAsyncTaskExecutor-31] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:31 MSK 2018
+""2018-04-09 04:46:31 [http-nio-8080-exec-8] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:31 MSK 2018 
+""2018-04-09 04:46:31 [http-nio-8080-exec-8] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:31 MSK 2018 
+""2018-04-09 04:46:31 [SimpleAsyncTaskExecutor-33] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:31 MSK 2018
+""2018-04-09 04:46:31 [SimpleAsyncTaskExecutor-33] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:31 MSK 2018
+""2018-04-09 04:46:32 [http-nio-8080-exec-9] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:32 MSK 2018 
+""2018-04-09 04:46:32 [http-nio-8080-exec-9] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:32 MSK 2018 
+""2018-04-09 04:46:32 [SimpleAsyncTaskExecutor-35] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:32 MSK 2018
+""2018-04-09 04:46:32 [SimpleAsyncTaskExecutor-35] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:32 MSK 2018
+""2018-04-09 04:46:32 [http-nio-8080-exec-10] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:32 MSK 2018 
+""2018-04-09 04:46:32 [http-nio-8080-exec-10] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:32 MSK 2018 
+""2018-04-09 04:46:32 [SimpleAsyncTaskExecutor-37] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:32 MSK 2018
+""2018-04-09 04:46:32 [SimpleAsyncTaskExecutor-37] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:32 MSK 2018
+""2018-04-09 04:46:32 [http-nio-8080-exec-1] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:32 MSK 2018 
+""2018-04-09 04:46:32 [http-nio-8080-exec-1] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:32 MSK 2018 
+""2018-04-09 04:46:32 [SimpleAsyncTaskExecutor-39] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:32 MSK 2018
+""2018-04-09 04:46:32 [SimpleAsyncTaskExecutor-39] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:32 MSK 2018
+""2018-04-09 04:46:32 [http-nio-8080-exec-2] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:32 MSK 2018 
+""2018-04-09 04:46:32 [http-nio-8080-exec-2] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:32 MSK 2018 
+""2018-04-09 04:46:32 [SimpleAsyncTaskExecutor-41] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:32 MSK 2018
+""2018-04-09 04:46:32 [SimpleAsyncTaskExecutor-41] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:32 MSK 2018
+""2018-04-09 04:46:32 [http-nio-8080-exec-3] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:32 MSK 2018 
+""2018-04-09 04:46:32 [http-nio-8080-exec-3] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:32 MSK 2018 
+""2018-04-09 04:46:32 [SimpleAsyncTaskExecutor-43] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:32 MSK 2018
+""2018-04-09 04:46:32 [SimpleAsyncTaskExecutor-43] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:32 MSK 2018
+""2018-04-09 04:46:33 [http-nio-8080-exec-4] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:33 MSK 2018 
+""2018-04-09 04:46:33 [http-nio-8080-exec-4] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:33 MSK 2018 
+""2018-04-09 04:46:33 [SimpleAsyncTaskExecutor-45] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:33 MSK 2018
+""2018-04-09 04:46:33 [SimpleAsyncTaskExecutor-45] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:33 MSK 2018
+""2018-04-09 04:46:33 [http-nio-8080-exec-5] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:33 MSK 2018 
+""2018-04-09 04:46:33 [http-nio-8080-exec-5] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:33 MSK 2018 
+""2018-04-09 04:46:33 [SimpleAsyncTaskExecutor-47] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:33 MSK 2018
+""2018-04-09 04:46:33 [SimpleAsyncTaskExecutor-47] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:33 MSK 2018
+""2018-04-09 04:46:33 [http-nio-8080-exec-6] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:33 MSK 2018 
+""2018-04-09 04:46:33 [http-nio-8080-exec-6] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:33 MSK 2018 
+""2018-04-09 04:46:33 [SimpleAsyncTaskExecutor-49] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:33 MSK 2018
+""2018-04-09 04:46:33 [SimpleAsyncTaskExecutor-49] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:33 MSK 2018
+""2018-04-09 04:46:33 [http-nio-8080-exec-7] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:33 MSK 2018 
+""2018-04-09 04:46:33 [http-nio-8080-exec-7] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:33 MSK 2018 
+""2018-04-09 04:46:33 [SimpleAsyncTaskExecutor-51] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:33 MSK 2018
+""2018-04-09 04:46:33 [SimpleAsyncTaskExecutor-51] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:33 MSK 2018
+""2018-04-09 04:46:33 [http-nio-8080-exec-8] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:33 MSK 2018 
+""2018-04-09 04:46:33 [http-nio-8080-exec-8] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:33 MSK 2018 
+""2018-04-09 04:46:33 [SimpleAsyncTaskExecutor-53] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:33 MSK 2018
+""2018-04-09 04:46:33 [SimpleAsyncTaskExecutor-53] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:33 MSK 2018
+""2018-04-09 04:46:34 [http-nio-8080-exec-9] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:34 MSK 2018 
+""2018-04-09 04:46:34 [http-nio-8080-exec-9] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:34 MSK 2018 
+""2018-04-09 04:46:34 [SimpleAsyncTaskExecutor-55] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:34 MSK 2018
+""2018-04-09 04:46:34 [SimpleAsyncTaskExecutor-55] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:34 MSK 2018
+""2018-04-09 04:46:34 [http-nio-8080-exec-10] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:34 MSK 2018 
+""2018-04-09 04:46:34 [http-nio-8080-exec-10] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:34 MSK 2018 
+""2018-04-09 04:46:34 [SimpleAsyncTaskExecutor-57] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:34 MSK 2018
+""2018-04-09 04:46:34 [SimpleAsyncTaskExecutor-57] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: use1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:34 MSK 2018
+""2018-04-09 04:46:38 [http-nio-8080-exec-1] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:38 MSK 2018 
+""2018-04-09 04:46:38 [http-nio-8080-exec-1] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:38 MSK 2018 
+""2018-04-09 04:46:38 [SimpleAsyncTaskExecutor-59] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:38 MSK 2018
+""2018-04-09 04:46:38 [SimpleAsyncTaskExecutor-59] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:38 MSK 2018
+""2018-04-09 04:46:38 [http-nio-8080-exec-2] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:38 MSK 2018 
+""2018-04-09 04:46:38 [http-nio-8080-exec-2] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:38 MSK 2018 
+""2018-04-09 04:46:38 [SimpleAsyncTaskExecutor-61] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:38 MSK 2018
+""2018-04-09 04:46:38 [SimpleAsyncTaskExecutor-61] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:38 MSK 2018
+""2018-04-09 04:46:38 [http-nio-8080-exec-3] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:38 MSK 2018 
+""2018-04-09 04:46:38 [http-nio-8080-exec-3] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:38 MSK 2018 
+""2018-04-09 04:46:38 [SimpleAsyncTaskExecutor-63] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:38 MSK 2018
+""2018-04-09 04:46:38 [SimpleAsyncTaskExecutor-63] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:38 MSK 2018
+""2018-04-09 04:46:38 [http-nio-8080-exec-4] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:38 MSK 2018 
+""2018-04-09 04:46:38 [http-nio-8080-exec-4] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:38 MSK 2018 
+""2018-04-09 04:46:38 [SimpleAsyncTaskExecutor-65] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:38 MSK 2018
+""2018-04-09 04:46:38 [SimpleAsyncTaskExecutor-65] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:38 MSK 2018
+""2018-04-09 04:46:38 [http-nio-8080-exec-5] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:38 MSK 2018 
+""2018-04-09 04:46:38 [http-nio-8080-exec-5] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:38 MSK 2018 
+""2018-04-09 04:46:38 [SimpleAsyncTaskExecutor-67] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:38 MSK 2018
+""2018-04-09 04:46:38 [SimpleAsyncTaskExecutor-67] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:38 MSK 2018
+""2018-04-09 04:46:39 [http-nio-8080-exec-6] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:39 MSK 2018 
+""2018-04-09 04:46:39 [http-nio-8080-exec-6] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:39 MSK 2018 
+""2018-04-09 04:46:39 [SimpleAsyncTaskExecutor-69] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:39 MSK 2018
+""2018-04-09 04:46:39 [SimpleAsyncTaskExecutor-69] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:39 MSK 2018
+""2018-04-09 04:46:39 [http-nio-8080-exec-7] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:39 MSK 2018 
+""2018-04-09 04:46:39 [http-nio-8080-exec-7] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:39 MSK 2018 
+""2018-04-09 04:46:39 [SimpleAsyncTaskExecutor-71] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:39 MSK 2018
+""2018-04-09 04:46:39 [SimpleAsyncTaskExecutor-71] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:39 MSK 2018
+""2018-04-09 04:46:39 [http-nio-8080-exec-8] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:39 MSK 2018 
+""2018-04-09 04:46:39 [http-nio-8080-exec-8] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:39 MSK 2018 
+""2018-04-09 04:46:39 [SimpleAsyncTaskExecutor-73] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:39 MSK 2018
+""2018-04-09 04:46:39 [SimpleAsyncTaskExecutor-73] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:39 MSK 2018
+""2018-04-09 04:46:39 [http-nio-8080-exec-9] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:39 MSK 2018 
+""2018-04-09 04:46:39 [http-nio-8080-exec-9] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:39 MSK 2018 
+""2018-04-09 04:46:39 [SimpleAsyncTaskExecutor-75] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:39 MSK 2018
+""2018-04-09 04:46:39 [SimpleAsyncTaskExecutor-75] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:39 MSK 2018
+""2018-04-09 04:46:40 [http-nio-8080-exec-10] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:40 MSK 2018 
+""2018-04-09 04:46:40 [http-nio-8080-exec-10] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:40 MSK 2018 
+""2018-04-09 04:46:40 [SimpleAsyncTaskExecutor-77] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:40 MSK 2018
+""2018-04-09 04:46:40 [SimpleAsyncTaskExecutor-77] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:40 MSK 2018
+""2018-04-09 04:46:40 [http-nio-8080-exec-1] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:40 MSK 2018 
+""2018-04-09 04:46:40 [http-nio-8080-exec-1] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:40 MSK 2018 
+""2018-04-09 04:46:40 [SimpleAsyncTaskExecutor-79] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:40 MSK 2018
+""2018-04-09 04:46:40 [SimpleAsyncTaskExecutor-79] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri155112df32363 Date:Mon Apr 09 04:46:40 MSK 2018
+""2018-04-09 04:46:42 [http-nio-8080-exec-2] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdf12df32363 Date:Mon Apr 09 04:46:42 MSK 2018 
+""2018-04-09 04:46:42 [http-nio-8080-exec-2] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdf12df32363 Date:Mon Apr 09 04:46:42 MSK 2018 
+""2018-04-09 04:46:42 [SimpleAsyncTaskExecutor-81] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdf12df32363 Date:Mon Apr 09 04:46:42 MSK 2018
+""2018-04-09 04:46:42 [SimpleAsyncTaskExecutor-81] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdf12df32363 Date:Mon Apr 09 04:46:42 MSK 2018
+""2018-04-09 04:46:42 [http-nio-8080-exec-3] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdf12df32363 Date:Mon Apr 09 04:46:42 MSK 2018 
+""2018-04-09 04:46:42 [http-nio-8080-exec-3] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdf12df32363 Date:Mon Apr 09 04:46:42 MSK 2018 
+""2018-04-09 04:46:42 [SimpleAsyncTaskExecutor-83] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdf12df32363 Date:Mon Apr 09 04:46:42 MSK 2018
+""2018-04-09 04:46:42 [SimpleAsyncTaskExecutor-83] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdf12df32363 Date:Mon Apr 09 04:46:42 MSK 2018
+""2018-04-09 04:46:42 [http-nio-8080-exec-4] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdf12df32363 Date:Mon Apr 09 04:46:42 MSK 2018 
+""2018-04-09 04:46:42 [http-nio-8080-exec-4] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdf12df32363 Date:Mon Apr 09 04:46:42 MSK 2018 
+""2018-04-09 04:46:42 [SimpleAsyncTaskExecutor-85] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdf12df32363 Date:Mon Apr 09 04:46:42 MSK 2018
+""2018-04-09 04:46:42 [SimpleAsyncTaskExecutor-85] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdf12df32363 Date:Mon Apr 09 04:46:42 MSK 2018
+""2018-04-09 04:46:43 [http-nio-8080-exec-5] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdf12df32363 Date:Mon Apr 09 04:46:43 MSK 2018 
+""2018-04-09 04:46:43 [http-nio-8080-exec-5] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdf12df32363 Date:Mon Apr 09 04:46:43 MSK 2018 
+""2018-04-09 04:46:43 [SimpleAsyncTaskExecutor-87] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdf12df32363 Date:Mon Apr 09 04:46:43 MSK 2018
+""2018-04-09 04:46:43 [SimpleAsyncTaskExecutor-87] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdf12df32363 Date:Mon Apr 09 04:46:43 MSK 2018
+""2018-04-09 04:46:44 [http-nio-8080-exec-6] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdf12dsdfsf32363 Date:Mon Apr 09 04:46:44 MSK 2018 
+""2018-04-09 04:46:44 [http-nio-8080-exec-6] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdf12dsdfsf32363 Date:Mon Apr 09 04:46:44 MSK 2018 
+""2018-04-09 04:46:44 [SimpleAsyncTaskExecutor-89] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdf12dsdfsf32363 Date:Mon Apr 09 04:46:44 MSK 2018
+""2018-04-09 04:46:44 [SimpleAsyncTaskExecutor-89] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdf12dsdfsf32363 Date:Mon Apr 09 04:46:44 MSK 2018
+""2018-04-09 04:46:45 [http-nio-8080-exec-7] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdf12dsdfsf32363 Date:Mon Apr 09 04:46:45 MSK 2018 
+""2018-04-09 04:46:45 [http-nio-8080-exec-7] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdf12dsdfsf32363 Date:Mon Apr 09 04:46:45 MSK 2018 
+""2018-04-09 04:46:45 [SimpleAsyncTaskExecutor-91] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdf12dsdfsf32363 Date:Mon Apr 09 04:46:45 MSK 2018
+""2018-04-09 04:46:45 [SimpleAsyncTaskExecutor-91] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdf12dsdfsf32363 Date:Mon Apr 09 04:46:45 MSK 2018
+""2018-04-09 04:46:45 [http-nio-8080-exec-8] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdf12dsdfsf32363 Date:Mon Apr 09 04:46:45 MSK 2018 
+""2018-04-09 04:46:45 [http-nio-8080-exec-8] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdf12dsdfsf32363 Date:Mon Apr 09 04:46:45 MSK 2018 
+""2018-04-09 04:46:45 [SimpleAsyncTaskExecutor-93] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdf12dsdfsf32363 Date:Mon Apr 09 04:46:45 MSK 2018
+""2018-04-09 04:46:45 [SimpleAsyncTaskExecutor-93] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdf12dsdfsf32363 Date:Mon Apr 09 04:46:45 MSK 2018
+""2018-04-09 04:46:45 [http-nio-8080-exec-9] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdf12dsdfsf32363 Date:Mon Apr 09 04:46:45 MSK 2018 
+""2018-04-09 04:46:45 [http-nio-8080-exec-9] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdf12dsdfsf32363 Date:Mon Apr 09 04:46:45 MSK 2018 
+""2018-04-09 04:46:45 [SimpleAsyncTaskExecutor-95] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdf12dsdfsf32363 Date:Mon Apr 09 04:46:45 MSK 2018
+""2018-04-09 04:46:45 [SimpleAsyncTaskExecutor-95] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdf12dsdfsf32363 Date:Mon Apr 09 04:46:45 MSK 2018
+""2018-04-09 04:46:47 [http-nio-8080-exec-10] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfsf32363 Date:Mon Apr 09 04:46:47 MSK 2018 
+""2018-04-09 04:46:47 [http-nio-8080-exec-10] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfsf32363 Date:Mon Apr 09 04:46:47 MSK 2018 
+""2018-04-09 04:46:47 [SimpleAsyncTaskExecutor-97] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfsf32363 Date:Mon Apr 09 04:46:47 MSK 2018
+""2018-04-09 04:46:47 [SimpleAsyncTaskExecutor-97] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfsf32363 Date:Mon Apr 09 04:46:47 MSK 2018
+""2018-04-09 04:46:47 [http-nio-8080-exec-1] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfsf32363 Date:Mon Apr 09 04:46:47 MSK 2018 
+""2018-04-09 04:46:47 [http-nio-8080-exec-1] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfsf32363 Date:Mon Apr 09 04:46:47 MSK 2018 
+""2018-04-09 04:46:47 [SimpleAsyncTaskExecutor-99] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfsf32363 Date:Mon Apr 09 04:46:47 MSK 2018
+""2018-04-09 04:46:47 [SimpleAsyncTaskExecutor-99] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfsf32363 Date:Mon Apr 09 04:46:47 MSK 2018
+""2018-04-09 04:46:47 [http-nio-8080-exec-2] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfsf32363 Date:Mon Apr 09 04:46:47 MSK 2018 
+""2018-04-09 04:46:47 [http-nio-8080-exec-2] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfsf32363 Date:Mon Apr 09 04:46:47 MSK 2018 
+""2018-04-09 04:46:47 [SimpleAsyncTaskExecutor-101] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfsf32363 Date:Mon Apr 09 04:46:47 MSK 2018
+""2018-04-09 04:46:47 [SimpleAsyncTaskExecutor-101] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfsf32363 Date:Mon Apr 09 04:46:47 MSK 2018
+""2018-04-09 04:46:48 [http-nio-8080-exec-3] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfsf32363 Date:Mon Apr 09 04:46:48 MSK 2018 
+""2018-04-09 04:46:48 [http-nio-8080-exec-3] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfsf32363 Date:Mon Apr 09 04:46:48 MSK 2018 
+""2018-04-09 04:46:48 [SimpleAsyncTaskExecutor-103] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfsf32363 Date:Mon Apr 09 04:46:48 MSK 2018
+""2018-04-09 04:46:48 [SimpleAsyncTaskExecutor-103] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfsf32363 Date:Mon Apr 09 04:46:48 MSK 2018
+""2018-04-09 04:46:49 [http-nio-8080-exec-4] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfssdfsdff32363 Date:Mon Apr 09 04:46:49 MSK 2018 
+""2018-04-09 04:46:49 [http-nio-8080-exec-4] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfssdfsdff32363 Date:Mon Apr 09 04:46:49 MSK 2018 
+""2018-04-09 04:46:49 [SimpleAsyncTaskExecutor-105] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfssdfsdff32363 Date:Mon Apr 09 04:46:49 MSK 2018
+""2018-04-09 04:46:49 [SimpleAsyncTaskExecutor-105] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfssdfsdff32363 Date:Mon Apr 09 04:46:49 MSK 2018
+""2018-04-09 04:46:49 [http-nio-8080-exec-5] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfssdfsdff32363 Date:Mon Apr 09 04:46:49 MSK 2018 
+""2018-04-09 04:46:49 [http-nio-8080-exec-5] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfssdfsdff32363 Date:Mon Apr 09 04:46:49 MSK 2018 
+""2018-04-09 04:46:49 [SimpleAsyncTaskExecutor-107] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfssdfsdff32363 Date:Mon Apr 09 04:46:49 MSK 2018
+""2018-04-09 04:46:49 [SimpleAsyncTaskExecutor-107] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfssdfsdff32363 Date:Mon Apr 09 04:46:49 MSK 2018
+""2018-04-09 04:46:50 [http-nio-8080-exec-6] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfssdfsdff32363 Date:Mon Apr 09 04:46:50 MSK 2018 
+""2018-04-09 04:46:50 [http-nio-8080-exec-6] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfssdfsdff32363 Date:Mon Apr 09 04:46:50 MSK 2018 
+""2018-04-09 04:46:50 [SimpleAsyncTaskExecutor-109] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfssdfsdff32363 Date:Mon Apr 09 04:46:50 MSK 2018
+""2018-04-09 04:46:50 [SimpleAsyncTaskExecutor-109] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfssdfsdff32363 Date:Mon Apr 09 04:46:50 MSK 2018
+""2018-04-09 04:46:50 [http-nio-8080-exec-7] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfssdfsdff32363 Date:Mon Apr 09 04:46:50 MSK 2018 
+""2018-04-09 04:46:50 [http-nio-8080-exec-7] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfssdfsdff32363 Date:Mon Apr 09 04:46:50 MSK 2018 
+""2018-04-09 04:46:50 [SimpleAsyncTaskExecutor-111] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfssdfsdff32363 Date:Mon Apr 09 04:46:50 MSK 2018
+""2018-04-09 04:46:50 [SimpleAsyncTaskExecutor-111] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfssdfsdff32363 Date:Mon Apr 09 04:46:50 MSK 2018
+""2018-04-09 04:46:50 [http-nio-8080-exec-8] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfssdfsdff32363 Date:Mon Apr 09 04:46:50 MSK 2018 
+""2018-04-09 04:46:50 [http-nio-8080-exec-8] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfssdfsdff32363 Date:Mon Apr 09 04:46:50 MSK 2018 
+""2018-04-09 04:46:50 [SimpleAsyncTaskExecutor-113] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfssdfsdff32363 Date:Mon Apr 09 04:46:50 MSK 2018
+""2018-04-09 04:46:50 [SimpleAsyncTaskExecutor-113] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfssdfsdff32363 Date:Mon Apr 09 04:46:50 MSK 2018
+""2018-04-09 04:46:50 [http-nio-8080-exec-9] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfssdfsdff32363 Date:Mon Apr 09 04:46:50 MSK 2018 
+""2018-04-09 04:46:50 [http-nio-8080-exec-9] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfssdfsdff32363 Date:Mon Apr 09 04:46:50 MSK 2018 
+""2018-04-09 04:46:50 [SimpleAsyncTaskExecutor-115] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfssdfsdff32363 Date:Mon Apr 09 04:46:50 MSK 2018
+""2018-04-09 04:46:50 [SimpleAsyncTaskExecutor-115] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12dsdfssdfsdff32363 Date:Mon Apr 09 04:46:50 MSK 2018
+""2018-04-09 04:46:52 [http-nio-8080-exec-10] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:52 MSK 2018 
+""2018-04-09 04:46:52 [http-nio-8080-exec-10] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:52 MSK 2018 
+""2018-04-09 04:46:52 [SimpleAsyncTaskExecutor-117] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:52 MSK 2018
+""2018-04-09 04:46:52 [SimpleAsyncTaskExecutor-117] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:52 MSK 2018
+""2018-04-09 04:46:52 [http-nio-8080-exec-1] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:52 MSK 2018 
+""2018-04-09 04:46:52 [http-nio-8080-exec-1] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:52 MSK 2018 
+""2018-04-09 04:46:52 [SimpleAsyncTaskExecutor-119] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:52 MSK 2018
+""2018-04-09 04:46:52 [SimpleAsyncTaskExecutor-119] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:52 MSK 2018
+""2018-04-09 04:46:52 [http-nio-8080-exec-2] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:52 MSK 2018 
+""2018-04-09 04:46:52 [http-nio-8080-exec-2] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:52 MSK 2018 
+""2018-04-09 04:46:52 [SimpleAsyncTaskExecutor-121] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:52 MSK 2018
+""2018-04-09 04:46:52 [SimpleAsyncTaskExecutor-121] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:52 MSK 2018
+""2018-04-09 04:46:53 [http-nio-8080-exec-3] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:53 MSK 2018 
+""2018-04-09 04:46:53 [http-nio-8080-exec-3] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:53 MSK 2018 
+""2018-04-09 04:46:53 [SimpleAsyncTaskExecutor-123] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:53 MSK 2018
+""2018-04-09 04:46:53 [SimpleAsyncTaskExecutor-123] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:53 MSK 2018
+""2018-04-09 04:46:53 [http-nio-8080-exec-4] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:53 MSK 2018 
+""2018-04-09 04:46:53 [http-nio-8080-exec-4] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:53 MSK 2018 
+""2018-04-09 04:46:53 [SimpleAsyncTaskExecutor-125] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:53 MSK 2018
+""2018-04-09 04:46:53 [SimpleAsyncTaskExecutor-125] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:53 MSK 2018
+""2018-04-09 04:46:55 [http-nio-8080-exec-5] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfssdfsdfdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:55 MSK 2018 
+""2018-04-09 04:46:55 [http-nio-8080-exec-5] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfssdfsdfdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:55 MSK 2018 
+""2018-04-09 04:46:55 [SimpleAsyncTaskExecutor-127] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfssdfsdfdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:55 MSK 2018
+""2018-04-09 04:46:55 [SimpleAsyncTaskExecutor-127] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfssdfsdfdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:55 MSK 2018
+""2018-04-09 04:46:55 [http-nio-8080-exec-6] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfssdfsdfdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:55 MSK 2018 
+""2018-04-09 04:46:55 [http-nio-8080-exec-6] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfssdfsdfdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:55 MSK 2018 
+""2018-04-09 04:46:55 [SimpleAsyncTaskExecutor-129] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfssdfsdfdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:55 MSK 2018
+""2018-04-09 04:46:55 [SimpleAsyncTaskExecutor-129] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfssdfsdfdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:55 MSK 2018
+""2018-04-09 04:46:55 [http-nio-8080-exec-7] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfssdfsdfdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:55 MSK 2018 
+""2018-04-09 04:46:55 [http-nio-8080-exec-7] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfssdfsdfdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:55 MSK 2018 
+""2018-04-09 04:46:55 [SimpleAsyncTaskExecutor-131] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfssdfsdfdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:55 MSK 2018
+""2018-04-09 04:46:55 [SimpleAsyncTaskExecutor-131] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfssdfsdfdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:55 MSK 2018
+""2018-04-09 04:46:55 [http-nio-8080-exec-8] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfssdfsdfdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:55 MSK 2018 
+""2018-04-09 04:46:55 [http-nio-8080-exec-8] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfssdfsdfdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:55 MSK 2018 
+""2018-04-09 04:46:55 [SimpleAsyncTaskExecutor-133] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfssdfsdfdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:55 MSK 2018
+""2018-04-09 04:46:55 [SimpleAsyncTaskExecutor-133] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfssdfsdfdfsdf12sdfsdfdsdfssdfsdff32363 Date:Mon Apr 09 04:46:55 MSK 2018
+""2018-04-09 04:47:00 [http-nio-8080-exec-9] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdff32363 Date:Mon Apr 09 04:47:00 MSK 2018 
+""2018-04-09 04:47:00 [http-nio-8080-exec-9] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdff32363 Date:Mon Apr 09 04:47:00 MSK 2018 
+""2018-04-09 04:47:00 [SimpleAsyncTaskExecutor-135] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdff32363 Date:Mon Apr 09 04:47:00 MSK 2018
+""2018-04-09 04:47:00 [SimpleAsyncTaskExecutor-135] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdff32363 Date:Mon Apr 09 04:47:00 MSK 2018
+""2018-04-09 04:47:00 [http-nio-8080-exec-10] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdff32363 Date:Mon Apr 09 04:47:00 MSK 2018 
+""2018-04-09 04:47:00 [http-nio-8080-exec-10] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdff32363 Date:Mon Apr 09 04:47:00 MSK 2018 
+""2018-04-09 04:47:00 [SimpleAsyncTaskExecutor-137] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdff32363 Date:Mon Apr 09 04:47:00 MSK 2018
+""2018-04-09 04:47:00 [SimpleAsyncTaskExecutor-137] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdff32363 Date:Mon Apr 09 04:47:00 MSK 2018
+""2018-04-09 04:47:00 [http-nio-8080-exec-1] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdff32363 Date:Mon Apr 09 04:47:00 MSK 2018 
+""2018-04-09 04:47:00 [http-nio-8080-exec-1] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdff32363 Date:Mon Apr 09 04:47:00 MSK 2018 
+""2018-04-09 04:47:00 [SimpleAsyncTaskExecutor-139] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdff32363 Date:Mon Apr 09 04:47:00 MSK 2018
+""2018-04-09 04:47:00 [SimpleAsyncTaskExecutor-139] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdff32363 Date:Mon Apr 09 04:47:00 MSK 2018
+""2018-04-09 04:47:02 [http-nio-8080-exec-2] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdff32s363 Date:Mon Apr 09 04:47:02 MSK 2018 
+""2018-04-09 04:47:02 [http-nio-8080-exec-2] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdff32s363 Date:Mon Apr 09 04:47:02 MSK 2018 
+""2018-04-09 04:47:02 [SimpleAsyncTaskExecutor-141] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdff32s363 Date:Mon Apr 09 04:47:02 MSK 2018
+""2018-04-09 04:47:02 [SimpleAsyncTaskExecutor-141] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdff32s363 Date:Mon Apr 09 04:47:02 MSK 2018
+""2018-04-09 04:47:02 [http-nio-8080-exec-3] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdff32s363 Date:Mon Apr 09 04:47:02 MSK 2018 
+""2018-04-09 04:47:02 [http-nio-8080-exec-3] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdff32s363 Date:Mon Apr 09 04:47:02 MSK 2018 
+""2018-04-09 04:47:02 [SimpleAsyncTaskExecutor-143] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdff32s363 Date:Mon Apr 09 04:47:02 MSK 2018
+""2018-04-09 04:47:02 [SimpleAsyncTaskExecutor-143] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdff32s363 Date:Mon Apr 09 04:47:02 MSK 2018
+""2018-04-09 04:47:03 [http-nio-8080-exec-4] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdff32s363 Date:Mon Apr 09 04:47:03 MSK 2018 
+""2018-04-09 04:47:03 [http-nio-8080-exec-4] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdff32s363 Date:Mon Apr 09 04:47:03 MSK 2018 
+""2018-04-09 04:47:03 [SimpleAsyncTaskExecutor-145] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdff32s363 Date:Mon Apr 09 04:47:03 MSK 2018
+""2018-04-09 04:47:03 [SimpleAsyncTaskExecutor-145] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdff32s363 Date:Mon Apr 09 04:47:03 MSK 2018
+""2018-04-09 04:47:05 [http-nio-8080-exec-5] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdff3g2s363 Date:Mon Apr 09 04:47:05 MSK 2018 
+""2018-04-09 04:47:05 [http-nio-8080-exec-5] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdff3g2s363 Date:Mon Apr 09 04:47:05 MSK 2018 
+""2018-04-09 04:47:05 [SimpleAsyncTaskExecutor-147] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdff3g2s363 Date:Mon Apr 09 04:47:05 MSK 2018
+""2018-04-09 04:47:05 [SimpleAsyncTaskExecutor-147] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdff3g2s363 Date:Mon Apr 09 04:47:05 MSK 2018
+""2018-04-09 04:47:05 [http-nio-8080-exec-6] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdff3g2s363 Date:Mon Apr 09 04:47:05 MSK 2018 
+""2018-04-09 04:47:05 [http-nio-8080-exec-6] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdff3g2s363 Date:Mon Apr 09 04:47:05 MSK 2018 
+""2018-04-09 04:47:05 [SimpleAsyncTaskExecutor-149] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdff3g2s363 Date:Mon Apr 09 04:47:05 MSK 2018
+""2018-04-09 04:47:05 [SimpleAsyncTaskExecutor-149] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdff3g2s363 Date:Mon Apr 09 04:47:05 MSK 2018
+""2018-04-09 04:47:05 [http-nio-8080-exec-7] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdff3g2s363 Date:Mon Apr 09 04:47:05 MSK 2018 
+""2018-04-09 04:47:05 [http-nio-8080-exec-7] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdff3g2s363 Date:Mon Apr 09 04:47:05 MSK 2018 
+""2018-04-09 04:47:05 [SimpleAsyncTaskExecutor-151] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdff3g2s363 Date:Mon Apr 09 04:47:05 MSK 2018
+""2018-04-09 04:47:05 [SimpleAsyncTaskExecutor-151] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdff3g2s363 Date:Mon Apr 09 04:47:05 MSK 2018
+""2018-04-09 04:47:06 [http-nio-8080-exec-8] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdff3g2s363 Date:Mon Apr 09 04:47:06 MSK 2018 
+""2018-04-09 04:47:06 [http-nio-8080-exec-8] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdff3g2s363 Date:Mon Apr 09 04:47:06 MSK 2018 
+""2018-04-09 04:47:06 [SimpleAsyncTaskExecutor-153] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdff3g2s363 Date:Mon Apr 09 04:47:06 MSK 2018
+""2018-04-09 04:47:06 [SimpleAsyncTaskExecutor-153] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdff3g2s363 Date:Mon Apr 09 04:47:06 MSK 2018
+""2018-04-09 04:47:06 [http-nio-8080-exec-9] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdff3g2s363 Date:Mon Apr 09 04:47:06 MSK 2018 
+""2018-04-09 04:47:06 [http-nio-8080-exec-9] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdff3g2s363 Date:Mon Apr 09 04:47:06 MSK 2018 
+""2018-04-09 04:47:06 [SimpleAsyncTaskExecutor-155] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdff3g2s363 Date:Mon Apr 09 04:47:06 MSK 2018
+""2018-04-09 04:47:06 [SimpleAsyncTaskExecutor-155] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdff3g2s363 Date:Mon Apr 09 04:47:06 MSK 2018
+""2018-04-09 04:47:10 [http-nio-8080-exec-10] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdfddf3g2s363 Date:Mon Apr 09 04:47:10 MSK 2018 
+""2018-04-09 04:47:10 [http-nio-8080-exec-10] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdfddf3g2s363 Date:Mon Apr 09 04:47:10 MSK 2018 
+""2018-04-09 04:47:10 [SimpleAsyncTaskExecutor-157] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdfddf3g2s363 Date:Mon Apr 09 04:47:10 MSK 2018
+""2018-04-09 04:47:10 [SimpleAsyncTaskExecutor-157] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdfddf3g2s363 Date:Mon Apr 09 04:47:10 MSK 2018
+""2018-04-09 04:47:10 [http-nio-8080-exec-1] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdfddf3g2s363 Date:Mon Apr 09 04:47:10 MSK 2018 
+""2018-04-09 04:47:10 [http-nio-8080-exec-1] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri1551sdfsfsdfddf3g2s363 Date:Mon Apr 09 04:47:10 MSK 2018 
+""2018-04-09 04:47:10 [SimpleAsyncTaskExecutor-159] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdfddf3g2s363 Date:Mon Apr 09 04:47:10 MSK 2018
+""2018-04-09 04:47:10 [SimpleAsyncTaskExecutor-159] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri1551sdfsfsdfddf3g2s363 Date:Mon Apr 09 04:47:10 MSK 2018
+""2018-04-09 04:47:14 [http-nio-8080-exec-2] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:14 MSK 2018 
+""2018-04-09 04:47:14 [http-nio-8080-exec-2] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:14 MSK 2018 
+""2018-04-09 04:47:14 [SimpleAsyncTaskExecutor-161] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:14 MSK 2018
+""2018-04-09 04:47:14 [SimpleAsyncTaskExecutor-161] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:14 MSK 2018
+""2018-04-09 04:47:14 [http-nio-8080-exec-3] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:14 MSK 2018 
+""2018-04-09 04:47:14 [http-nio-8080-exec-3] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:14 MSK 2018 
+""2018-04-09 04:47:14 [SimpleAsyncTaskExecutor-163] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:14 MSK 2018
+""2018-04-09 04:47:14 [SimpleAsyncTaskExecutor-163] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:14 MSK 2018
+""2018-04-09 04:47:15 [http-nio-8080-exec-4] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:15 MSK 2018 
+""2018-04-09 04:47:15 [http-nio-8080-exec-4] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:15 MSK 2018 
+""2018-04-09 04:47:15 [SimpleAsyncTaskExecutor-165] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:15 MSK 2018
+""2018-04-09 04:47:15 [SimpleAsyncTaskExecutor-165] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:15 MSK 2018
+""2018-04-09 04:47:15 [http-nio-8080-exec-5] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:15 MSK 2018 
+""2018-04-09 04:47:15 [http-nio-8080-exec-5] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:15 MSK 2018 
+""2018-04-09 04:47:15 [SimpleAsyncTaskExecutor-167] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:15 MSK 2018
+""2018-04-09 04:47:15 [SimpleAsyncTaskExecutor-167] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:15 MSK 2018
+""2018-04-09 04:47:15 [http-nio-8080-exec-6] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:15 MSK 2018 
+""2018-04-09 04:47:15 [http-nio-8080-exec-6] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:15 MSK 2018 
+""2018-04-09 04:47:15 [SimpleAsyncTaskExecutor-169] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:15 MSK 2018
+""2018-04-09 04:47:15 [SimpleAsyncTaskExecutor-169] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:15 MSK 2018
+""2018-04-09 04:47:15 [http-nio-8080-exec-7] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:15 MSK 2018 
+""2018-04-09 04:47:15 [http-nio-8080-exec-7] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:15 MSK 2018 
+""2018-04-09 04:47:15 [SimpleAsyncTaskExecutor-171] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:15 MSK 2018
+""2018-04-09 04:47:15 [SimpleAsyncTaskExecutor-171] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:15 MSK 2018
+""2018-04-09 04:47:15 [http-nio-8080-exec-8] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:15 MSK 2018 
+""2018-04-09 04:47:15 [http-nio-8080-exec-8] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:15 MSK 2018 
+""2018-04-09 04:47:15 [SimpleAsyncTaskExecutor-173] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:15 MSK 2018
+""2018-04-09 04:47:15 [SimpleAsyncTaskExecutor-173] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:15 MSK 2018
+""2018-04-09 04:47:16 [http-nio-8080-exec-9] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:16 MSK 2018 
+""2018-04-09 04:47:16 [http-nio-8080-exec-9] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:16 MSK 2018 
+""2018-04-09 04:47:16 [SimpleAsyncTaskExecutor-175] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:16 MSK 2018
+""2018-04-09 04:47:16 [SimpleAsyncTaskExecutor-175] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri15513 Date:Mon Apr 09 04:47:16 MSK 2018
+""2018-04-09 04:47:18 [http-nio-8080-exec-10] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:18 MSK 2018 
+""2018-04-09 04:47:18 [http-nio-8080-exec-10] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:18 MSK 2018 
+""2018-04-09 04:47:18 [SimpleAsyncTaskExecutor-177] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:18 MSK 2018
+""2018-04-09 04:47:18 [SimpleAsyncTaskExecutor-177] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:18 MSK 2018
+""2018-04-09 04:47:18 [http-nio-8080-exec-1] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:18 MSK 2018 
+""2018-04-09 04:47:18 [http-nio-8080-exec-1] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:18 MSK 2018 
+""2018-04-09 04:47:18 [SimpleAsyncTaskExecutor-179] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:18 MSK 2018
+""2018-04-09 04:47:18 [SimpleAsyncTaskExecutor-179] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:18 MSK 2018
+""2018-04-09 04:47:19 [http-nio-8080-exec-2] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:19 MSK 2018 
+""2018-04-09 04:47:19 [http-nio-8080-exec-2] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:19 MSK 2018 
+""2018-04-09 04:47:19 [SimpleAsyncTaskExecutor-181] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:19 MSK 2018
+""2018-04-09 04:47:19 [SimpleAsyncTaskExecutor-181] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:19 MSK 2018
+""2018-04-09 04:47:19 [http-nio-8080-exec-3] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:19 MSK 2018 
+""2018-04-09 04:47:19 [http-nio-8080-exec-3] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:19 MSK 2018 
+""2018-04-09 04:47:19 [SimpleAsyncTaskExecutor-183] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:19 MSK 2018
+""2018-04-09 04:47:19 [SimpleAsyncTaskExecutor-183] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:19 MSK 2018
+""2018-04-09 04:47:19 [http-nio-8080-exec-4] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:19 MSK 2018 
+""2018-04-09 04:47:19 [http-nio-8080-exec-4] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:19 MSK 2018 
+""2018-04-09 04:47:19 [SimpleAsyncTaskExecutor-185] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:19 MSK 2018
+""2018-04-09 04:47:19 [SimpleAsyncTaskExecutor-185] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:19 MSK 2018
+""2018-04-09 04:47:19 [http-nio-8080-exec-5] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:19 MSK 2018 
+""2018-04-09 04:47:19 [http-nio-8080-exec-5] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:19 MSK 2018 
+""2018-04-09 04:47:19 [SimpleAsyncTaskExecutor-187] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:19 MSK 2018
+""2018-04-09 04:47:19 [SimpleAsyncTaskExecutor-187] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:19 MSK 2018
+""2018-04-09 04:47:20 [http-nio-8080-exec-6] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:20 MSK 2018 
+""2018-04-09 04:47:20 [http-nio-8080-exec-6] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:20 MSK 2018 
+""2018-04-09 04:47:20 [SimpleAsyncTaskExecutor-189] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:20 MSK 2018
+""2018-04-09 04:47:20 [SimpleAsyncTaskExecutor-189] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:20 MSK 2018
+""2018-04-09 04:47:20 [http-nio-8080-exec-7] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Passing hit for persistence. UserId:usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:20 MSK 2018 
+""2018-04-09 04:47:20 [http-nio-8080-exec-7] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit passed for persistence. UserId:usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:20 MSK 2018 
+""2018-04-09 04:47:20 [SimpleAsyncTaskExecutor-191] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Saving hit asynchronously. UserId: usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:20 MSK 2018
+""2018-04-09 04:47:20 [SimpleAsyncTaskExecutor-191] DEBUG c.d.i.t.p.r.HitsRepositoryAsyncAdapter - Hit saved asynchronously. UserId: usesdf1ff5 URI:uri155dd13 Date:Mon Apr 09 04:47:20 MSK 2018
 "

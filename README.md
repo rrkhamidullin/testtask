@@ -1,12 +1,14 @@
 # testtask
 
+Use
+
 ./gradlew build && java -jar build/libs/interview-task-1.0-SNAPSHOT.jar
 
 OR
 
 ./gradlew bootRun
 
-To run application.
+to run application.
 
 Use your favorite REST client to test. https://www.getpostman.com/ suits well.
 
