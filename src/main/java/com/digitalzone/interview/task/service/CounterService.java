@@ -3,7 +3,6 @@ package com.digitalzone.interview.task.service;
 import com.digitalzone.interview.task.dto.Hits;
 import com.digitalzone.interview.task.persist.model.Hit;
 import com.digitalzone.interview.task.persist.repository.HitsRepository;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Set;
 import java.util.concurrent.Callable;
@@ -29,6 +28,9 @@ import org.springframework.stereotype.Component;
 @Scope(BeanDefinition.SCOPE_SINGLETON)
 public class CounterService {
 
+    private static final String CRON_EXP = "0 0 0 * * *";//TODO move it to properties somehow
+    private static final int DAY_IN_MILLIS = 24 * 60 * 60 * 1000;
+
     private final Logger logger;
 
     private AtomicLong hits;
@@ -51,7 +53,7 @@ public class CounterService {
     public void init() {
         logger.info("PostConstruct");
         Date end = new Date();
-        Date begin = new Date(end.getTime() - (end.getTime() % (24 * 60 * 60 * 1000)));
+        Date begin = new Date(end.getTime() - (end.getTime() % DAY_IN_MILLIS));
 
         hits = new AtomicLong(hitsRepository.getTotalCount(begin, end));
         entratsCache.addAll(hitsRepository.getUniqueUsers(begin, end));
@@ -74,7 +76,7 @@ public class CounterService {
     /**
      * This scheduler zeroes counts and users caches once a day at midnight
      */
-    @Scheduled(cron = "0 0 0 * * *")
+    @Scheduled(cron = CRON_EXP)
     public void cron() {
         doInLock((Callable<Void>) () -> {
             hits.set(0);

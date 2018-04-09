@@ -13,10 +13,12 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 @EnableAsync
 @EnableAutoConfiguration
-@EnableJpaRepositories("com.digitalzone.interview.task")
-@EntityScan("com.digitalzone.interview.task")
-@ComponentScan("com.digitalzone.interview.task")
+@EnableJpaRepositories(App.SCAN_PACKAGE)
+@EntityScan(App.SCAN_PACKAGE)
+@ComponentScan(App.SCAN_PACKAGE)
 public class App {
+    static final String SCAN_PACKAGE = "com.digitalzone.interview.task";
+
     public static void main(String[] args) {
         SpringApplication.run(App.class, args);
     }
