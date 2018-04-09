@@ -30,11 +30,9 @@ import org.springframework.stereotype.Component;
 public class CounterService {
 
     private final Logger logger;
-    private static final SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
 
     private AtomicLong hits;
     private Set<String> entratsCache = ConcurrentHashMap.newKeySet();
-
     private final ReadWriteLock lock = new ReentrantReadWriteLock();
 
     private final HitsRepository hitsRepository;
@@ -78,7 +76,6 @@ public class CounterService {
      */
     @Scheduled(cron = "0 0 0 * * *")
     public void cron() {
-        logger.info("The time is now {}", dateFormat.format(new Date()));
         doInLock((Callable<Void>) () -> {
             hits.set(0);
             entratsCache.clear();
