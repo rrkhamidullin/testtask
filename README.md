@@ -8,7 +8,7 @@ OR
 
 To run application.
 
-Use your favorite REST client to test.
+Use your favorite REST client to test. https://www.getpostman.com/ suits well.
 
 
 
