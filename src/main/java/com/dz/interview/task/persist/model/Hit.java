@@ -1,4 +1,4 @@
-package com.digitalzone.interview.task.persist.model;
+package com.dz.interview.task.persist.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.util.Date;

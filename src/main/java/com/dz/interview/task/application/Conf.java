@@ -1,4 +1,4 @@
-package com.digitalzone.interview.task.application;
+package com.dz.interview.task.application;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

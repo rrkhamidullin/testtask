@@ -1,10 +1,10 @@
-package com.digitalzone.interview.task.controller;
+package com.dz.interview.task.controller;
 
-import com.digitalzone.interview.task.dto.Hits;
-import com.digitalzone.interview.task.dto.HitsCustom;
-import com.digitalzone.interview.task.dto.HitsRange;
-import com.digitalzone.interview.task.persist.model.Hit;
-import com.digitalzone.interview.task.service.HitsService;
+import com.dz.interview.task.dto.Hits;
+import com.dz.interview.task.dto.HitsCustom;
+import com.dz.interview.task.dto.HitsRange;
+import com.dz.interview.task.persist.model.Hit;
+import com.dz.interview.task.service.HitsService;
 import java.util.concurrent.Callable;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;

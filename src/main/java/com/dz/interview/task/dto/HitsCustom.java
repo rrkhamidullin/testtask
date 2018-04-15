@@ -1,4 +1,4 @@
-package com.digitalzone.interview.task.dto;
+package com.dz.interview.task.dto;
 
 public class HitsCustom {
 

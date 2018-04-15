@@ -1,4 +1,4 @@
-group = 'com.digitalzone.interview'
+group = 'com.dz.interview'
 version = '1.0-SNAPSHOT'
 
 buildscript {

@@ -1,4 +1,4 @@
-package com.digitalzone.interview.task.application;
+package com.dz.interview.task.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -17,7 +17,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EntityScan(App.SCAN_PACKAGE)
 @ComponentScan(App.SCAN_PACKAGE)
 public class App {
-    static final String SCAN_PACKAGE = "com.digitalzone.interview.task";
+    static final String SCAN_PACKAGE = "com.dz.interview.task";
 
     public static void main(String[] args) {
         SpringApplication.run(App.class, args);

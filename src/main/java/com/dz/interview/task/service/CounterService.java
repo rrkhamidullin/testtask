@@ -1,8 +1,8 @@
-package com.digitalzone.interview.task.service;
+package com.dz.interview.task.service;
 
-import com.digitalzone.interview.task.dto.Hits;
-import com.digitalzone.interview.task.persist.model.Hit;
-import com.digitalzone.interview.task.persist.repository.HitsRepository;
+import com.dz.interview.task.dto.Hits;
+import com.dz.interview.task.persist.model.Hit;
+import com.dz.interview.task.persist.repository.HitsRepository;
 import java.util.Date;
 import java.util.Set;
 import java.util.concurrent.Callable;

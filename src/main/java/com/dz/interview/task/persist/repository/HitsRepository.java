@@ -1,6 +1,6 @@
-package com.digitalzone.interview.task.persist.repository;
+package com.dz.interview.task.persist.repository;
 
-import com.digitalzone.interview.task.persist.model.Hit;
+import com.dz.interview.task.persist.model.Hit;
 import java.util.Collection;
 import java.util.Date;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -1,4 +1,4 @@
-package com.digitalzone.interview.task.dto;
+package com.dz.interview.task.dto;
 
 import java.util.Date;
 
